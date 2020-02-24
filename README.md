@@ -16,3 +16,14 @@ The representation of the maze is based on a coding with the four digits 0, 1, 2
 + An accessible area is a maximal set of inner points that can all be accessed from the same gate (so the number of accessible inner points is at most equal to the number of gates).
 + A set of accessible cul-de-sacs that are all connected is a maximal set S of connected inner points that can all be accessed from the same gate g and such that for all points p in S, if p has been accessed from g for the first time, then either p is in a dead end or moving on without ever getting back leads into a dead end.
 + An entry-exit path with no intersections not to cul-de-sacs is a maximal set S of connected inner points that go from a gate to another (necessarily different) gate and such that for all points p in S, there is only one way to move on from p without getting back and without entering a cul-de-sac.
+
+# How To Play
+Example (using Maze_Encodings/labyrinth.txt): 
++ $ python3 
++ \>>> from maze import *
++ \>>> maze = Maze('labyrinth.txt')
++ \>>> maze.analyse() 
+Output:
+The maze has 2 gates. <br/>The maze has 2 sets of walls that are all connected.<br/>The maze has no inaccessible inner point.<br/>The maze has a unique accessible area.<br/>The maze has 8 sets of accessible cul-de-sacs that are all connected.<br/>The maze has a unique entry-exit path with no intersection not to cul-de-sacs. 
++ \>>> maze.display()
+Now you have labyrinth.tex, which represents labyrinth.pdf.
