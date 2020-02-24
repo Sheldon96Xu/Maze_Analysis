@@ -1,5 +1,6 @@
 # Brief
-Analyse the various characteristics of a maze, represented by a particular coding of its basic constituents into numbers stored in a file whose contents is read, andeither display those characteristics. Or output some Latex code in a file, from which a pictorial representation of the maze can be produced.
++ Analyse the various characteristics of a maze, represented by a particular coding of its basic constituents into numbers stored in a file whose contents is read, and display those characteristics. 
++ Output some Latex code in a file, from which a pictorial representation of the maze can be produced.
 
 # Input Maze Encoding
 The representation of the maze is based on a coding with the four digits 0, 1, 2 and 3 such that
