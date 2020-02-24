@@ -25,5 +25,5 @@ Example (using Maze_Encodings/labyrinth.txt):
 + \>>> maze.analyse() 
 Output:
 The maze has 2 gates. <br/>The maze has 2 sets of walls that are all connected.<br/>The maze has no inaccessible inner point.<br/>The maze has a unique accessible area.<br/>The maze has 8 sets of accessible cul-de-sacs that are all connected.<br/>The maze has a unique entry-exit path with no intersection not to cul-de-sacs. 
-+ \>>> maze.display()
++ \>>> maze.display()<br/>
 Now you have labyrinth.tex, which represents labyrinth.pdf.
