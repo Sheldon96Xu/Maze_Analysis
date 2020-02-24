@@ -9,7 +9,7 @@ The representation of the maze is based on a coding with the four digits 0, 1, 2
 + 2 codes points that are connected to their below neighbours but not to their right ones.
 + 3 codes points that are connected to both their right and below neighbours.
 
-# Keywords Definitions
+# Definitions
 + A point that is connected to none of their left, right, above and below neighbours represents a pillar.
 + A gate is any pair of consecutive points on one of the four sides of the maze that are not connected. 
 + An inaccessible inner point is an inner point that cannot be reached from any gate. 
